@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header{
+    padding-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    color: white;
+    height: 150px;
+    padding-bottom: 0%;
+
+}
+header h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+}
+
+nav a{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.random {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("https://www.nicepng.com/png/full/288-2889388_banner-header-team2x-graphic-design-banner-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.info {
+    width: 75%;
+    display: inline-block;
+    margin-left: 0px;
+    border: black;
+}
+
+.key-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+    color: #ffffff;
+    
+}
+
+.key-info img  {
+    max-height: 200px;
+}
+
+.key-info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    float: left;
+    border: white;
+    border: solid;
+}
+
+.key-info p{
+    float: right;
+}
+
+.contact {
+    padding-left: 0px;
+    float: right;
+    clear: both;
+    width:  100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightblue;
+}
+
+.contact-me {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.contact-me h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact {
+    margin-right: 20px;
+    padding-left: 0px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conctact-section {
+    margin-bottom: 32px;
+    color: white;
+}
+
+.contact-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.benefit-section img {
+    height: 200px;
+    width: 50%;
+    width: 270px;
+  border: 1px solid black;
+}
+aside img{
+    width:270px;
+  height:400px;
+  object-fit:cover;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
