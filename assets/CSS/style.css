@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: lemonchiffon;
 }
 
-header{
+header {
     padding-top: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: lightblue;
@@ -17,12 +17,14 @@ header{
     padding-bottom: 3%;
 
 }
+
 header h1 {
     display: inline-block;
     font-size: 45px;
 }
 
-nav, nav li {
+nav,
+nav li {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -30,12 +32,12 @@ nav, nav li {
     font-size: 23px;
 }
 
-nav a{
+nav a {
     display: inline-block;
     margin-left: 25px;
 }
 
-nav a:hover{
+nav a:hover {
     color: white;
     text-decoration: underline;
 }
@@ -69,6 +71,7 @@ a {
     display: inline-block;
     margin-left: 0px;
     border: black;
+
 }
 
 .key-info {
@@ -81,22 +84,25 @@ a {
     color: #ffffff;
 }
 
-#Work{
-    background-color: #CFE8A9;
-    width: 1100px;
-    margin-left: 10px;
-}
-
-#About-Me{
+#Work {
     background-color: #CFE8A9;
     width: 1100px;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.key-info img  {
+#About-Me {
+    background-color: #CFE8A9;
+    width: 1100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.key-info img {
     max-height: 200px;
-    
+    position: relative;
+    left: -25px;
+
 }
 
 .key-resume {
@@ -112,10 +118,11 @@ a {
     padding-left: 0px;
     float: right;
     clear: both;
-    width:  100%;
+    width: 100%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightblue;
+    background-color: #CFE8A9;
+    margin-top: 10px;
 }
 
 .contact-me {
@@ -152,15 +159,18 @@ a {
     height: 200px;
     width: 50%;
     width: 270px;
-  border: 1px solid black;
-}
-aside img{
-    width:270px;
-  height:400px;
-  object-fit:cover;
+    border: 1px solid black;
 }
 
-aside ul, h3{
+aside img {
+    width: 270px;
+    height: 400px;
+    object-fit: cover;
+    padding-left: 20px;
+}
+
+aside ul,
+h3 {
     text-align: center;
     color: white;
 }
@@ -175,5 +185,5 @@ footer {
 
 footer h2 {
     font-size: 20px;
-    color:white
+    color: white
 }
