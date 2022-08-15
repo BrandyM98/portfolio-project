@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #e8f4f8;
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
@@ -56,14 +56,14 @@ nav a:hover {
     width: 700px;
     display: inline-block;
     margin-left: 400px;
-    border: solid white;
+    border: solid #e8f4f8;
     height: 200px;
 }
 
 header img {
     position: absolute;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 380px;
     left: 20px;
     top: 150px;
 }
@@ -84,7 +84,7 @@ header img {
     width: 700px;
     display: block;
     margin-left: 400px;
-    border: solid white;
+    border: solid #e8f4f8;
     height: 200px;
     padding-top: 60px;
     padding-bottom: 250px;
@@ -115,7 +115,7 @@ header img {
     width: 700px;
     display: block;
     margin-left: 400px;
-    border: solid white;
+    border: solid #e8f4f8;
     height: 200px;   
 }
 
@@ -135,5 +135,6 @@ header img {
 footer {
     font-size: 30px;
     text-align: center;
+    padding-left: 200px;
 
 }
