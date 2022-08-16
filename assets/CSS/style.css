@@ -40,19 +40,19 @@ section {
     padding: 20px;
 }
 
-#articlediv{
-    display: flex;
-    flex-direction: row;
-    }
-
 article {
     width: calc(50% -16px);
     margin-bottom: 12px;
     padding: 8px;
 }
 
+/*
 article:first-of-type {
     width: 100%;
+}*/
+
+.cat{
+    width: 45%;
 }
 
 h2 {
@@ -64,20 +64,27 @@ img {
     margin: 8px 0;
 }
 
-#about-me{
-    display: flex;
-    justify-content: center;
+#about-me {
+    text-align: center;
+    align-items: center;
 }
 
-#work img {
-    width: 100%;
+#about-me img {
+    max-width: 200px;
+}
 
+#about-me p{
+    padding-top: 5px;
 }
 
 #work div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#work img {
+    width: 100%;
 }
 
 #work div p {
