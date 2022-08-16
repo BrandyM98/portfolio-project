@@ -9,4 +9,4 @@ This portfolio features a brief description about me, my contact information, my
 [Link to live site](https://brandym98.github.io/horiseon-refactor-project/)
 
 ## Visuals
-![Alt text](./assets/images/Horiseon.png)
+![Alt text](./assets/images/Portfolio.png)
