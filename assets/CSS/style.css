@@ -1,8 +1,4 @@
-:root{
-    --light:var(--light)
-    --medium:var(--light)
-    --dark:
-}
+/* Need to add root */
 * {
     padding: 0;
     margin: 0;
@@ -32,8 +28,8 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
     color: grey;
+    text-decoration: underline;
     margin-left: 8px;
 }
 
@@ -71,6 +67,10 @@ img {
     max-width: 200px;
 }
 
+#about-me p{
+    padding-top: 5px;
+}
+
 #work img {
     width: 100%;
     
@@ -80,15 +80,22 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
-/* need to center the links */ 
-#contact div {
+
+#work div p {
+    color: grey;
+    font-size: 20px;
+}
+/* create border or make it look better*/ 
+#contact-me div {
+    border: 4px solid lightblue;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;    
 }
+
+
 
 footer{
     text-align: center;
