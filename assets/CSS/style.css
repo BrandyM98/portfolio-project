@@ -48,7 +48,7 @@ article img {
     width: 30%;
     position: relative;
     top: 50px;
-    float:left;
+    float: left;
 }
 
 .me h3 {
@@ -65,7 +65,7 @@ article img {
     padding-top: 50px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 40px;
     color: grey;
@@ -77,22 +77,22 @@ h3{
     display: flex;
     flex-direction: column;
     margin-left: 475px;
-    border: solid  #e8f4f8;
+    border: solid #e8f4f8;
     height: 500px;
 }
 
-.work1 img{
+.work1 img {
     position: relative;
     width: auto;
     height: auto;
 }
 
-#figure1{
+#figure1 {
     display: flex;
     justify-content: center;
 }
 
-#figure2{
+#figure2 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
@@ -103,7 +103,7 @@ h3{
     display: block;
     margin-left: 400px;
     border: 10px solid #e8f4f8;
-    height: 200px;  
+    height: 200px;
     margin-top: 200px;
 }
 
@@ -128,25 +128,19 @@ footer {
 
 }
 
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
+@media screen and (max-width:992px) {
+    article img {
+        width: 30%;
+        position: relative;
+        top: 50px;
+        float: left;
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
+}
 
- 
-   
+@media screen and (max-width:992px) {
+    .work1 img {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+}
