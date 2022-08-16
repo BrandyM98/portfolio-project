@@ -8,6 +8,5 @@
 This portfolio features a brief description about me, my contact information, my resume, and additional links to previous projects of mine.
 [Link to live site](https://brandym98.github.io/portfolio-project/)
 
-
 ## Visuals
 ![Alt text](./assets/images/Portfolio.png)
