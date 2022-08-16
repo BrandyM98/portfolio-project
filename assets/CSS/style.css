@@ -46,13 +46,8 @@ article {
     padding: 8px;
 }
 
-/*
-article:first-of-type {
-    width: 100%;
-}*/
-
-.cat{
-    width: 45%;
+.projectdiv{
+    width: 47.5%;
 }
 
 h2 {
@@ -99,8 +94,6 @@ img {
     padding: 10px;
     align-items: center;
 }
-
-
 
 footer {
     text-align: center;
